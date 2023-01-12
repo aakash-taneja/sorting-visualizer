@@ -134,10 +134,16 @@ section #Info_Cont2 h3 {
   nav .array-inputs {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     /* margin-top: 20px; */
   }
   nav .array-inputs div{
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   nav .header_right .algos{
     display: flex;
