@@ -11,6 +11,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 20px 5%;
+  overflow: hidden;
 }
 
 nav .array-inputs {
@@ -123,4 +124,31 @@ section #Info_Cont2 h3 {
 
 .hide {
   display: none;
+}
+
+@media only screen and (max-width: 768px){
+  nav{
+    display: flex;
+    flex-direction: column;
+  }
+  nav .array-inputs {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+  }
+  nav .array-inputs div{
+    margin-top: 10px;
+  }
+  nav .header_right .algos{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  nav .header_right .algos button{
+    margin: 20px 5px;
+  }
+  section #array_container {   
+    margin-top: 50px;
+    height: 50vh;
+  }
 }
